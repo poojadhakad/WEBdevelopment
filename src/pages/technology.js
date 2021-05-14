@@ -2,9 +2,12 @@ import React from "react"
 import { Button } from "react-bootstrap"
 import { Link } from "gatsby"
 
+import thermo from "../content/bookss/thermo.jpg"
+import THERMO from "../pdf/THERMO.pdf"
 import Mp from "../content/bookss/mp.jpg"
 import PDF from "../pdf/MP.pdf"
-
+import maths from "../content/bookss/maths.jpg"
+import MATHS from "../pdf/MATHS.pdf"
 import Pe from "../content/bookss/pe.jpg"
 import pePDF from "../pdf/PE.pdf"
 import Em from "../content/bookss/Fitzgerald.jpg"
@@ -123,10 +126,10 @@ const Technology = () => {
 
           <Col md={3}>
             <Card className="mb-3">
-              <Image src={Em} className="card-img-top" alt="mpmc book" fluid />
+              <Image src={maths} className="card-img-top" alt="mpmc book" fluid />
               <div className="row gap-3 p-3">
                 <Button variant="danger" className="div6">
-                  <a href={EmPDF} className="text-light">
+                  <a href={MATHS} className="text-light">
                     VIEW BOOK
                   </a>
                   {` `}
@@ -134,7 +137,7 @@ const Technology = () => {
               </div>
               <div className="row gap-1 p-1">
                 <Button variant="danger" className="div6">
-                  <a href={EmPDF} className="text-light" download>
+                  <a href={MATHS} className="text-light" download>
                     DOWNLOAD BOOK
                   </a>
                   {` `}
@@ -145,10 +148,10 @@ const Technology = () => {
 
           <Col md={3}>
             <Card className="mb-3">
-              <Image src={Em} className="card-img-top" alt="mpmc book" fluid />
+              <Image src={thermo} className="card-img-top" alt="mpmc book" fluid />
               <div className="row gap-3 p-3">
                 <Button variant="danger" className="div6">
-                  <a href={EmPDF} className="text-light">
+                  <a href={THERMO} className="text-light">
                     VIEW BOOK
                   </a>
                   {` `}
@@ -156,7 +159,7 @@ const Technology = () => {
               </div>
               <div className="row gap-1 p-1">
                 <Button variant="danger" className="div6">
-                  <a href={EmPDF} className="text-light" download>
+                  <a href={THERMO} className="text-light" download>
                     DOWNLOAD BOOK
                   </a>
                   {` `}

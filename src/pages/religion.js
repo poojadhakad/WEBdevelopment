@@ -4,12 +4,16 @@ import { Link } from "gatsby"
 import { Button } from "react-bootstrap"
 import bible from "../content/bookss/religion/bible.jpg"
 import Bible from "../pdf/bible.pdf"
-import Gita from "../content/bookss/religion/gita.png"
+import Gita from "../content/bookss/religion/gita.jpg"
 import gita from "../pdf/gita.pdf"
 import Quran from "../content/bookss/religion/quran.jpg"
 import quran from "../pdf/quran.pdf"
 import Rama from "../content/bookss/religion/ram.jpg"
 import ramayan from "../pdf/ramayana.pdf"
+import maha from "../content/bookss/religion/mahabharata.jpg"
+import MAHA from "../pdf/Mahabharata.pdf"
+import shiv from "../content/bookss/religion/shiv.jpg"
+import SHIV from "../pdf/shiv-puran.pdf"
 import "../styles/books.scss"
 import { Container, Row, Col, Card, Image } from "react-bootstrap"
 
@@ -19,17 +23,18 @@ const ReligionPage = () => {
           <Container>
       <div className="card-deck">
         <Row>
-          <Col md={3}>
+
+        <Col md={3}>
             <Card className="mb-3">
               <Image
-                src={bible}
+                src={shiv}
                 className="card-img-top"
                 alt="Bible"
                 fluid
               />
               <div className="row gap-3 p-3">
                 <Button variant="danger" className="div6">
-                  <a href={Bible} className="text-light">
+                  <a href={SHIV} className="text-light">
                     VIEW BOOK
                   </a>
                   {` `}
@@ -37,7 +42,7 @@ const ReligionPage = () => {
               </div>
               <div className="row gap-1 p-1">
                 <Button variant="danger" className="div6">
-                  <a href={Bible} className="text-light" download>
+                  <a href={SHIV} className="text-light" download>
                     DOWNLOAD BOOK
                   </a>
                   {` `}
@@ -46,32 +51,8 @@ const ReligionPage = () => {
             </Card>
           </Col>
 
-          <Col md={3}>
-            <Card className="mb-3">
-              <Image
-                src={Gita}
-                className="card-img-top"
-                alt="Bible"
-                fluid
-              />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
-                  <a href={gita} className="text-light">
-                    VIEW BOOK
-                  </a>
-                  {` `}
-                </Button>
-              </div>
-              <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
-                  <a href={gita} className="text-light" download>
-                    DOWNLOAD BOOK
-                  </a>
-                  {` `}
-                </Button>
-              </div>
-            </Card>
-          </Col>
+
+       
 
           <Col md={3}>
             <Card className="mb-3">
@@ -127,7 +108,87 @@ const ReligionPage = () => {
             </Card>
           </Col>
 
+          <Col md={3}>
+            <Card className="mb-3">
+              <Image
+                src={maha}
+                className="card-img-top"
+                alt="Bible"
+                fluid
+              />
+              <div className="row gap-3 p-3">
+                <Button variant="danger" className="div6">
+                  <a href={MAHA} className="text-light">
+                    VIEW BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+              <div className="row gap-1 p-1">
+                <Button variant="danger" className="div6">
+                  <a href={MAHA} className="text-light" download>
+                    DOWNLOAD BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+            </Card>
+          </Col>
 
+       
+          <Col md={3}>
+            <Card className="mb-3">
+              <Image
+                src={bible}
+                className="card-img-top"
+                alt="Bible"
+                fluid
+              />
+              <div className="row gap-3 p-3">
+                <Button variant="danger" className="div6">
+                  <a href={Bible} className="text-light">
+                    VIEW BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+              <div className="row gap-1 p-1">
+                <Button variant="danger" className="div6">
+                  <a href={Bible} className="text-light" download>
+                    DOWNLOAD BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+            </Card>
+          </Col>
+
+          <Col md={3}>
+            <Card className="mb-3">
+              <Image
+                src={Gita}
+                className="card-img-top"
+                alt="Bible"
+                fluid
+              />
+              <div className="row gap-3 p-3">
+                <Button variant="danger" className="div6">
+                  <a href={gita} className="text-light">
+                    VIEW BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+              <div className="row gap-1 p-1">
+                <Button variant="danger" className="div6">
+                  <a href={gita} className="text-light" download>
+                    DOWNLOAD BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+            </Card>
+          </Col>
 
         </Row>
         <p className="text-right"><Link to="/">back to page</Link></p>

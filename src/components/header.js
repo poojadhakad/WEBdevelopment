@@ -24,6 +24,10 @@ const Header = () => {
           <Nav.Link> 
             <Link to="/blog" className="text-light"> Blog</Link>
           </Nav.Link>
+
+          <Nav.Link> 
+            <Link to="#finish" className="scroll.bottom"> Books</Link>
+          </Nav.Link>
         
           <NavDropdown title="More" id="collasible-nav-dropdown" className="text-light" >
             <NavDropdown.Item>

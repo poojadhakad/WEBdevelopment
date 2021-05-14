@@ -4,8 +4,16 @@ import { Link } from "gatsby"
 import { Button } from "react-bootstrap"
 import CProg from "../content/bookss/CS/c.jpg"
 import cProg from "../pdf/csPdf/CProg.pdf"
-import Gita from "../content/bookss/religion/gita.png"
-import gita from "../pdf/gita.pdf"
+import aI from "../content/bookss/CS/AI.jpg"
+import AI from "../pdf/csPdf/AI.pdf"
+import hcj from "../content/bookss/CS/html_css_java.jpg"
+import HCJ from "../pdf/csPdf/HCJ.pdf"
+import excel from "../content/bookss/CS/excel.jpg"
+import EXCEL from "../pdf/csPdf/EXCEL.pdf"
+import wd from "../content/bookss/CS/WD.jpg"
+import WD from "../pdf/csPdf/WD.pdf"
+import html5 from "../content/bookss/CS/html5.jpg"
+import HTML5 from "../pdf/csPdf/html5.pdf"
 
 import "../styles/books.scss"
 import { Container, Row, Col, Card, Image } from "react-bootstrap"
@@ -46,14 +54,14 @@ const ReligionPage = () => {
           <Col md={3}>
             <Card className="mb-3">
               <Image
-                src={Gita}
+                src={aI}
                 className="card-img-top"
                 alt="Bible"
                 fluid
               />
               <div className="row gap-3 p-3">
                 <Button variant="danger" className="div6">
-                  <a href={gita} className="text-light">
+                  <a href={AI} className="text-light">
                     VIEW BOOK
                   </a>
                   {` `}
@@ -61,7 +69,115 @@ const ReligionPage = () => {
               </div>
               <div className="row gap-1 p-1">
                 <Button variant="danger" className="div6">
-                  <a href={gita} className="text-light" download>
+                  <a href={AI} className="text-light" download>
+                    DOWNLOAD BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+            </Card>
+          </Col>
+
+          <Col md={3}>
+            <Card className="mb-3">
+              <Image
+                src={excel}
+                className="card-img-top"
+                alt="Bible"
+                fluid
+              />
+              <div className="row gap-3 p-3">
+                <Button variant="danger" className="div6">
+                  <a href={EXCEL} className="text-light">
+                    VIEW BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+              <div className="row gap-1 p-1">
+                <Button variant="danger" className="div6">
+                  <a href={EXCEL} className="text-light" download>
+                    DOWNLOAD BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+            </Card>
+          </Col>
+
+          <Col md={3}>
+            <Card className="mb-3">
+              <Image
+                src={hcj}
+                className="card-img-top"
+                alt="Bible"
+                fluid
+              />
+              <div className="row gap-3 p-3">
+                <Button variant="danger" className="div6">
+                  <a href={HCJ} className="text-light">
+                    VIEW BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+              <div className="row gap-1 p-1">
+                <Button variant="danger" className="div6">
+                  <a href={HCJ} className="text-light" download>
+                    DOWNLOAD BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+            </Card>
+          </Col>
+
+          <Col md={3}>
+            <Card className="mb-3">
+              <Image
+                src={wd}
+                className="card-img-top"
+                alt="Bible"
+                fluid
+              />
+              <div className="row gap-3 p-3">
+                <Button variant="danger" className="div6">
+                  <a href={WD} className="text-light">
+                    VIEW BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+              <div className="row gap-1 p-1">
+                <Button variant="danger" className="div6">
+                  <a href={WD} className="text-light" download>
+                    DOWNLOAD BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+            </Card>
+          </Col>
+
+          <Col md={3}>
+            <Card className="mb-3">
+              <Image
+                src={html5}
+                className="card-img-top"
+                alt="Bible"
+                fluid
+              />
+              <div className="row gap-3 p-3">
+                <Button variant="danger" className="div6">
+                  <a href={HTML5} className="text-light">
+                    VIEW BOOK
+                  </a>
+                  {` `}
+                </Button>
+              </div>
+              <div className="row gap-1 p-1">
+                <Button variant="danger" className="div6">
+                  <a href={HTML5} className="text-light" download>
                     DOWNLOAD BOOK
                   </a>
                   {` `}
