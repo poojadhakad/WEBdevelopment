@@ -15,7 +15,7 @@ import WD from "../pdf/csPdf/WD.pdf"
 import html5 from "../content/bookss/CS/html5.jpg"
 import HTML5 from "../pdf/csPdf/html5.pdf"
 
-import "../styles/books.scss"
+import "../styles/book.scss"
 import { Container, Row, Col, Card, Image } from "react-bootstrap"
 
 const ReligionPage = () => {

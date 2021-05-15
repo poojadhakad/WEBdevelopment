@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { Navbar, Nav, NavDropdown } from "react-bootstrap"
 import logo from "../images/books.png"
-import "../styles/books.scss"
+import "../styles/book.scss"
 
 const Header = () => {
   return (

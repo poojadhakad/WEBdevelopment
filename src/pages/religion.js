@@ -3,18 +3,18 @@ import Layout from "../components/layout"
 import { Link } from "gatsby"
 import { Button } from "react-bootstrap"
 import bible from "../content/bookss/religion/bible.jpg"
-import Bible from "../pdf/bible.pdf"
+import Bible from "../pdf/religionPdf/bible.pdf"
 import Gita from "../content/bookss/religion/gita.jpg"
-import gita from "../pdf/gita.pdf"
+import gita from "../pdf/religionPdf/gita.pdf"
 import Quran from "../content/bookss/religion/quran.jpg"
-import quran from "../pdf/quran.pdf"
+import quran from "../pdf/religionPdf/quran.pdf"
 import Rama from "../content/bookss/religion/ram.jpg"
-import ramayan from "../pdf/ramayana.pdf"
+import ramayan from "../pdf/religionPdf/Ramayana.pdf"
 import maha from "../content/bookss/religion/mahabharata.jpg"
-import MAHA from "../pdf/Mahabharata.pdf"
+import MAHA from "../pdf/religionPdf/Mahabharata.pdf"
 import shiv from "../content/bookss/religion/shiv.jpg"
-import SHIV from "../pdf/shiv-puran.pdf"
-import "../styles/books.scss"
+import SHIV from "../pdf/religionPdf/shiv-puran.pdf"
+import "../styles/book.scss"
 import { Container, Row, Col, Card, Image } from "react-bootstrap"
 
 const ReligionPage = () => {
@@ -29,7 +29,7 @@ const ReligionPage = () => {
               <Image
                 src={shiv}
                 className="card-img-top"
-                alt="Bible"
+                alt="SHIVPURAN"
                 fluid
               />
               <div className="row gap-3 p-3">
@@ -59,7 +59,7 @@ const ReligionPage = () => {
               <Image
                 src={Quran}
                 className="card-img-top"
-                alt="Bible"
+                alt="quran"
                 fluid
               />
               <div className="row gap-3 p-3">
@@ -86,7 +86,7 @@ const ReligionPage = () => {
               <Image
                 src={Rama}
                 className="card-img-top"
-                alt="Bible"
+                alt="Ramayan"
                 fluid
               />
               <div className="row gap-3 p-3">
@@ -113,7 +113,7 @@ const ReligionPage = () => {
               <Image
                 src={maha}
                 className="card-img-top"
-                alt="Bible"
+                alt="Mahabharat"
                 fluid
               />
               <div className="row gap-3 p-3">
@@ -168,7 +168,7 @@ const ReligionPage = () => {
               <Image
                 src={Gita}
                 className="card-img-top"
-                alt="Bible"
+                alt="Gita"
                 fluid
               />
               <div className="row gap-3 p-3">
