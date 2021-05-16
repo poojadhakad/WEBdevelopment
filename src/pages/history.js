@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { FaDownload, FaEye } from "react-icons/fa"
+import { FaArrowLeft, FaDownload, FaEye } from "react-icons/fa"
 import { Link } from "gatsby"
 import OurPast1 from "../content/bookss/history/OurPast1.jpg"
 import ourPast1 from "../pdf/historyPdf/ourPast1.pdf"
@@ -193,7 +193,7 @@ const HistoryPage = () => {
           </Col>
 
         </Row>
-        <p className="text-right"><Link to="/">back to page</Link></p>
+        <p className="text-right"><Link to="/"><FaArrowLeft/>back to page</Link></p>
       </div>
       <br/>
     </Container>

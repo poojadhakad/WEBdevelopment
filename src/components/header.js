@@ -22,11 +22,6 @@ const Header = () => {
           <Nav.Link>
             <Link to="/contact" className="text-light"> Contact </Link>
           </Nav.Link>
-
-          <Nav.Link > 
-<Link to= "/">Books</Link>
-           
-          </Nav.Link>
         </Nav> 
       </Navbar.Collapse>
     </Navbar>

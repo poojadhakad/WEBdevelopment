@@ -15,7 +15,7 @@ import wof from "../content/bookss/biography/WOF.jpg"
 import WOF from "../pdf/biographyPdf/WOF.pdf"
 import "../styles/book.scss"
 import { Container, Row, Col, Card, Image } from "react-bootstrap"
-import { FaDownload, FaEye } from "react-icons/fa"
+import { FaDownload, FaEye,FaArrowLeft} from "react-icons/fa"
 
 const BiographyPage = () => {
   return (
@@ -195,7 +195,7 @@ const BiographyPage = () => {
        
 
         </Row>
-        <p className="text-right"><Link to="/">back to page</Link></p>
+        <p className="text-right"><Link to="/"><FaArrowLeft/>back to page</Link></p>
       </div>
       <br />
     </Container>

@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { FaDownload, FaEye } from "react-icons/fa"
+import { FaArrowLeft, FaDownload, FaEye } from "react-icons/fa"
 import { Link } from "gatsby"
 import rulesForLife from "../content/bookss/selfHelp/12rfl.jpg"
 import RulesForLife from "../pdf/selfHelpPdf/12-Rules-for-Life.pdf"
@@ -192,7 +192,7 @@ const SelpHelp = () => {
           </Col>
 
         </Row>
-        <p className="text-right"><Link to="/">back to page</Link></p>
+        <p className="text-right"><Link to="/"><FaArrowLeft/>back to page</Link></p>
       </div>
       <br />
     </Container>

@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import { FaDownload, FaEye } from "react-icons/fa"
+import { FaArrowLeft, FaDownload, FaEye } from "react-icons/fa"
 import ge from "../content/bookss/fiction/GE.jpg"
 import GE from "../pdf/fictionPdf/GE.pdf"
 import mby from "../content/bookss/fiction/MBY.jpg"
@@ -196,7 +196,7 @@ const Fiction = () => {
           </Col>
 
         </Row>
-        <p className="text-right"><Link to="/">back to page</Link></p>
+        <p className="text-right"><Link to="/"><FaArrowLeft />back to page</Link></p>
       </div>
       <br />
 

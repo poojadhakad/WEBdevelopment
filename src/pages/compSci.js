@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import { FaDownload, FaEye } from "react-icons/fa"
+import { FaArrowLeft, FaDownload, FaEye } from "react-icons/fa"
 import CProg from "../content/bookss/CS/c.jpg"
 import cProg from "../pdf/csPdf/CProg.pdf"
 import aI from "../content/bookss/CS/AI.jpg"
@@ -192,7 +192,7 @@ const ReligionPage = () => {
           </Col>
           
         </Row>
-        <p className="text-right"><Link to="/">back to page</Link></p>
+        <p className="text-right"><Link to="/"><FaArrowLeft/>back to page</Link></p>
       </div>
       <br />
           

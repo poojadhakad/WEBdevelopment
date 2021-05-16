@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaDownload, FaEye } from "react-icons/fa"
+import { FaArrowLeft, FaDownload, FaEye } from "react-icons/fa"
 
 import thermo from "../content/bookss/tech/thermo.jpg"
 import THERMO from "../pdf/techPdf/THERMO.pdf"
@@ -173,7 +173,7 @@ const Technology = () => {
      
          
         </Row>
-        <p className="text-right"><Link to="/">back to page</Link></p>
+        <p className="text-right"><Link to="/"><FaArrowLeft/>back to page</Link></p>
 
       </div>
       <br />
