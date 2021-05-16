@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
+import { FaDownload, FaEye } from "react-icons/fa"
 import { Link } from "gatsby"
-import { Button } from "react-bootstrap"
 import rulesForLife from "../content/bookss/selfHelp/12rfl.jpg"
 import RulesForLife from "../pdf/selfHelpPdf/12-Rules-for-Life.pdf"
 import aNewEarth from "../content/bookss/selfHelp/ane.jpg"
@@ -21,11 +21,11 @@ const SelpHelp = () => {
   return (
     <Layout>
           <Container>
+<br />
+<br />
+
       <div className="card-deck">
         <Row>
-
-      
-
           <Col md={3}>
             <Card className="mb-3">
               <Image
@@ -34,21 +34,21 @@ const SelpHelp = () => {
                 alt="Ramayan"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={ANewEarth} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={ANewEarth} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -61,21 +61,21 @@ const SelpHelp = () => {
                 alt="Mahabharat"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={Monk} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={Monk} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -89,21 +89,21 @@ const SelpHelp = () => {
                 alt="Bible"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={PositiveThinking} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={PositiveThinking} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -118,21 +118,21 @@ const SelpHelp = () => {
                 alt="quran"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={PowerOfNow} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={PowerOfNow} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -145,21 +145,21 @@ const SelpHelp = () => {
                 alt="SHIVPURAN"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={RulesForLife} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={RulesForLife} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -172,10 +172,10 @@ const SelpHelp = () => {
                 alt="Gita"
                 fluid
               />
-              <div className="row gap-3 p-3">
+              <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={Ikigai} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
                 </button>
@@ -183,7 +183,7 @@ const SelpHelp = () => {
               <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={Ikigai} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
                 </button>
@@ -194,6 +194,7 @@ const SelpHelp = () => {
         </Row>
         <p className="text-right"><Link to="/">back to page</Link></p>
       </div>
+      <br />
     </Container>
     </Layout>
   )

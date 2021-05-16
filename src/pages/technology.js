@@ -1,6 +1,7 @@
 import React from "react"
-import { Button } from "react-bootstrap"
 import { Link } from "gatsby"
+import { FaDownload, FaEye } from "react-icons/fa"
+
 import thermo from "../content/bookss/tech/thermo.jpg"
 import THERMO from "../pdf/techPdf/THERMO.pdf"
 import Mp from "../content/bookss/tech/mp.jpg"
@@ -24,6 +25,8 @@ const Technology = () => {
 
    
     <Container>
+      <br />
+      <br />
       <div className="card-deck">
         <Row>
 
@@ -35,46 +38,44 @@ const Technology = () => {
                 alt="microprocessor book"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button  className="div6">
                   <a href={PDF} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button  className="div6">
                   <a href={PDF} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
-              {/* <Card.Body>
-                        <Card.Title> <h3>book</h3></Card.Title>
-                    </Card.Body> */}
+            
             </Card>
           </Col>
 
           <Col md={3}>
             <Card className="mb-3">
-              <Image src={Pe} className="card-img-top" alt="mpmc book" fluid />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
-                  <a href={pePDF} className="text-light">
-                    VIEW BOOK
+              <Image src={Pe} className="card-img-top" alt="technology" fluid />
+              <div className="row gap-1 p-1">
+                <button variant="primary" className="div6">
+                  <a href={pePDF} className="text-light ">
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="info" className="div6">
                   <a href={pePDF} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK  <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -82,21 +83,21 @@ const Technology = () => {
           <Col md={3}>
             <Card className="mb-3">
               <Image src={Em} className="card-img-top" alt="Technology" fluid />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="dark" className="div6">
                   <a href={EmPDF} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button  className="div6">
                   <a href={EmPDF} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -104,21 +105,21 @@ const Technology = () => {
           <Col md={3}>
             <Card className="mb-3">
               <Image src={lic} className="card-img-top" alt="Technology" fluid />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={LicPDF} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={LicPDF} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -126,21 +127,21 @@ const Technology = () => {
           <Col md={3}>
             <Card className="mb-3">
               <Image src={maths} className="card-img-top" alt="Technology" fluid />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={MATHS} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={MATHS} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -148,21 +149,21 @@ const Technology = () => {
           <Col md={3}>
             <Card className="mb-3">
               <Image src={thermo} className="card-img-top" alt="Technology" fluid />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={THERMO} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={THERMO} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -175,6 +176,8 @@ const Technology = () => {
         <p className="text-right"><Link to="/">back to page</Link></p>
 
       </div>
+      <br />
+      <br />
     </Container>
     </Layout>
   )

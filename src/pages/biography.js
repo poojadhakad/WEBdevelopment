@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import { Button } from "react-bootstrap"
 import bo from "../content/bookss/biography/BO.jpg"
 import BO from "../pdf/biographyPdf/BO.pdf"
 import lwtr from "../content/bookss/biography/LWTR.jpg"
@@ -16,41 +15,19 @@ import wof from "../content/bookss/biography/WOF.jpg"
 import WOF from "../pdf/biographyPdf/WOF.pdf"
 import "../styles/book.scss"
 import { Container, Row, Col, Card, Image } from "react-bootstrap"
+import { FaDownload, FaEye } from "react-icons/fa"
 
 const BiographyPage = () => {
   return (
     <Layout>
           <Container>
+          <br />
+          <br />
+
       <div className="card-deck">
         <Row>
 
-          <Col md={3}>
-            <Card className="mb-3">
-              <Image
-                src={bo}
-                className="card-img-top"
-                alt="Ramayan"
-                fluid
-              />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
-                  <a href={BO} className="text-light">
-                    VIEW BOOK
-                  </a>
-                  {` `}
-                </Button>
-              </div>
-              <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
-                  <a href={BO} className="text-light" download>
-                    DOWNLOAD BOOK
-                  </a>
-                  {` `}
-                </Button>
-              </div>
-            </Card>
-          </Col>
-       
+          
           <Col md={3}>
             <Card className="mb-3">
               <Image
@@ -59,21 +36,21 @@ const BiographyPage = () => {
                 alt="Mahabharat"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={LWTR} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={LWTR} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -87,21 +64,21 @@ const BiographyPage = () => {
                 alt="Bible"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={MO} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={MO} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -116,21 +93,21 @@ const BiographyPage = () => {
                 alt="quran"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={SJ} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={SJ} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -143,21 +120,21 @@ const BiographyPage = () => {
                 alt="SHIVPURAN"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={TDOAYG} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye/>
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <ubtton variant="danger" className="div6">
                   <a href={TDOAYG} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
-                </Button>
+                </ubtton>
               </div>
             </Card>
           </Col>
@@ -170,10 +147,10 @@ const BiographyPage = () => {
                 alt="Gita"
                 fluid
               />
-              <div className="row gap-3 p-3">
+              <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={WOF} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye/>
                   </a>
                   {` `}
                 </button>
@@ -181,7 +158,7 @@ const BiographyPage = () => {
               <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={WOF} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
                 </button>
@@ -189,9 +166,38 @@ const BiographyPage = () => {
             </Card>
           </Col>
 
+          <Col md={3}>
+            <Card className="mb-3">
+              <Image
+                src={bo}
+                className="card-img-top"
+                alt="Ramayan"
+                fluid
+              />
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
+                  <a href={BO} className="text-light">
+                    VIEW BOOK <FaEye/>
+                  </a>
+                  {` `}
+                </button>
+              </div>
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
+                  <a href={BO} className="text-light" download>
+                    DOWNLOAD BOOK <FaDownload/>
+                  </a>
+                  {` `}
+                </button>
+              </div>
+            </Card>
+          </Col>
+       
+
         </Row>
         <p className="text-right"><Link to="/">back to page</Link></p>
       </div>
+      <br />
     </Container>
     </Layout>
   )

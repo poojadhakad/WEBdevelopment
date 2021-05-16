@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import { FaDownload, FaEye } from "react-icons/fa"
 import { Link } from "gatsby"
 import etl from "../content/bookss/health/ETL.jpg"
 import ETL from "../pdf/healthPdf/ETL.pdf"
@@ -20,6 +21,8 @@ const Health = () => {
   return (
     <Layout>
           <Container>
+          <br />
+          <br />
       <div className="card-deck">
         <Row>
 
@@ -33,10 +36,10 @@ const Health = () => {
                 alt="Ramayan"
                 fluid
               />
-              <div className="row gap-3 p-3">
+              <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={ETL} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
                 </button>
@@ -44,7 +47,7 @@ const Health = () => {
               <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={ETL} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
                 </button>
@@ -60,10 +63,10 @@ const Health = () => {
                 alt="Mahabharat"
                 fluid
               />
-              <div className="row gap-3 p-3">
+              <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={FR} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
                 </button>
@@ -71,7 +74,7 @@ const Health = () => {
               <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={FR} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
                 </button>
@@ -88,10 +91,10 @@ const Health = () => {
                 alt="SHIVPURAN"
                 fluid
               />
-              <div className="row gap-3 p-3">
+              <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={TOC} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
                 </button>
@@ -99,7 +102,7 @@ const Health = () => {
               <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={TOC} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
                 </button>
@@ -116,18 +119,18 @@ const Health = () => {
                 alt="quran"
                 fluid
               />
-              <div className="row gap-3 p-3">
+              <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={TFHB} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
-                  {` `}
+                  {/* {` `} */}
                 </button>
               </div>
               <div className="row gap-1 p-1">
-                <button variant="danger" className="div6">
+                <button variant="danger" className="div6" >
                   <a href={TFHB} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
                 </button>
@@ -136,25 +139,23 @@ const Health = () => {
           </Col>
 
           <Col md={3}>
-            <Card className="mb-3">
+            <Card className="mb-3 card">
               <Image
                 src={wbba}
                 className="card-img-top"
                 alt="Gita"
                 fluid
               />
-              <div className="row gap-3 p-3">
+              <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
-                  <a href={WBBA} className="text-light">
-                    VIEW BOOK
-                  </a>
-                  {` `}
+                  <a href={WBBA} className="text-light">VIEW BOOK <FaEye /></a>
+               
                 </button>
               </div>
               <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={WBBA} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
                 </button>
@@ -170,10 +171,10 @@ const Health = () => {
                 alt="Bible"
                 fluid
               />
-              <div className="row gap-3 p-3">
+              <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={TCGTF} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
                 </button>
@@ -181,7 +182,7 @@ const Health = () => {
               <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={TCGTF} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
                 </button>
@@ -193,6 +194,7 @@ const Health = () => {
         </Row>
         <p className="text-right"><Link to="/">back to page</Link></p>
       </div>
+      <br />
     </Container>
     </Layout>
   )

@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import { Button } from "react-bootstrap"
+import { FaDownload, FaEye } from "react-icons/fa"
 import ge from "../content/bookss/fiction/GE.jpg"
 import GE from "../pdf/fictionPdf/GE.pdf"
 import mby from "../content/bookss/fiction/MBY.jpg"
@@ -21,6 +21,10 @@ const Fiction = () => {
   return (
     <Layout>
           <Container>
+
+          <br />
+          <br />
+
       <div className="card-deck">
         <Row>
 
@@ -34,21 +38,21 @@ const Fiction = () => {
                 alt="Ramayan"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={GE} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={GE} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK  <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -61,21 +65,21 @@ const Fiction = () => {
                 alt="Mahabharat"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={MBY} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={MBY} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -89,21 +93,21 @@ const Fiction = () => {
                 alt="Bible"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={TFIOS} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={TFIOS} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -118,21 +122,21 @@ const Fiction = () => {
                 alt="quran"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={TGG} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={TGG} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -145,21 +149,21 @@ const Fiction = () => {
                 alt="SHIVPURAN"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={TKR} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={TKR} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -172,10 +176,10 @@ const Fiction = () => {
                 alt="Gita"
                 fluid
               />
-              <div className="row gap-3 p-3">
+              <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={WH} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
                 </button>
@@ -183,7 +187,7 @@ const Fiction = () => {
               <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
                   <a href={WH} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
                 </button>
@@ -194,6 +198,8 @@ const Fiction = () => {
         </Row>
         <p className="text-right"><Link to="/">back to page</Link></p>
       </div>
+      <br />
+
     </Container>
     </Layout>
   )

@@ -1,11 +1,11 @@
 import React from "react"
-import { FaAddressBook, FaEnvelope, FaPhone } from "react-icons/fa"
+import { FaAddressBook, FaEnvelope, } from "react-icons/fa"
 
 const ContactUs = () => (
   <section className="contactus-section">
     <div className="container py-5">
       <h2 className="heading text-center font-weight-bold mb-4">
-        Contact Us... <span className="text-danger">Let's Chat!</span>
+        Contact Us... <span className="text-info">Let's Chat!</span>
       </h2>
       <div className="row justify-content-center align-items-center">
         <div className="col-lg-4 col-md-6">
@@ -14,14 +14,14 @@ const ContactUs = () => (
               <div className="card p-2 text-center shadow mt-4">
                 <div className="row">
                   <div className="col-2 p-4">
-                    <h1 className="text-danger ">
+                    <h1 className="text-info ">
                       <FaAddressBook />
                     </h1>
                   </div>
                   <div className="col-10">
-                    <h4 className="text-danger ">Our Address</h4>
+                    <h4 className="text-info "> Address</h4>
                     <p>
-                      A108 Adam Street <br /> New York, NY 535022
+                      Banasthali Vidyapith <br /> Newai, Rajasthan, 304022
                     </p>
                   </div>
                 </div>
@@ -32,23 +32,27 @@ const ContactUs = () => (
               <div className="card p-2 text-center shadow">
                 <div className="row">
                   <div className="col-2 p-4">
-                    <h1 className="text-danger ">
+                    <h1 className="text-info ">
                       <FaEnvelope />
                     </h1>
                   </div>
                   <div className="col-10">
-                    <h4 className="text-danger">Email Us</h4>
+                    <h4 className="text-info">Email Us</h4>
                     <p>
-                      info@example.com
+                      btbtl18114_pooja@banathali.in
                       <br />
-                      contact@example.com
+                      btbtl18106_pragya@banathali.in
+                      <br />
+                      btbtl18141_tanya@banathali.in
+                      <br />
+                      btbtl18104_somya@banathali.in
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-12 mb-4">
+             {/* <div className="col-lg-12 mb-4">
               <div className="card p-2 text-center shadow">
                 <div className="row">
                   <div className="col-2 p-4">
@@ -56,19 +60,19 @@ const ContactUs = () => (
                       <FaPhone />
                     </h1>
                   </div>
-                  <div className="col-10">
+                   <div className="col-10">
                     <h4 className="text-danger">Call Us</h4>
                     <p>
                       +1 5589 55488 55
                       <br />
                       +1 6678 254445 41
                     </p>
-                  </div>
+                  </div> 
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
-        </div>
+        </div> 
 
         <div className="col-lg-7 col-md-12">
           <form

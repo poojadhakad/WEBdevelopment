@@ -16,7 +16,9 @@ import { Link } from "gatsby"
 const Bookkss = () => {
   return (
     <Container>
-      <div className="card-deck" >
+     <br />
+     <br />
+      <div className="card-deck"  >
         <Row>
         <Col md={3}>
             <Card className="mb-3">
@@ -27,17 +29,17 @@ const Bookkss = () => {
                 fluid
               />
                <Card.Body>
-                        <Card.Title> <h3>TECHNOLOGY</h3></Card.Title>
+                        <Card.Title> <h3 className="font">TECHNOLOGY</h3></Card.Title>
                     </Card.Body> 
-                    <button variant="success"  className="but" >
+                    <Button variant="info"  className="but" >
                   <Link to="/technology" className="text-light">BROWSE</Link>
                   {` `}
-                </button>
+                </Button>
             </Card>
           </Col>
 
           <Col md={3}>
-            <Card className="mb-3">
+            <Card className="mb-3" >
               <Image
                 src={FIC}
                 className="card-img-top"
@@ -45,9 +47,9 @@ const Bookkss = () => {
                 fluid
               />
                <Card.Body>
-                        <Card.Title> <h3>FICTION</h3></Card.Title>
+                        <Card.Title> <h3 className="font">FICTION</h3></Card.Title>
                     </Card.Body> 
-                    <Button variant="dark" className="but">
+                    <Button variant="info" className="but">
                   <Link to="/fiction" className="text-light">BROWSE</Link>
                   {` `}
                 </Button>
@@ -63,9 +65,9 @@ const Bookkss = () => {
                 fluid
               />
                <Card.Body>
-                        <Card.Title> <h3>BIOGRAPHY</h3></Card.Title>
+                        <Card.Title> <h3 className="font">BIOGRAPHY</h3></Card.Title>
                     </Card.Body> 
-                    <Button variant="danger" >
+                    <Button variant="info" >
                   <Link to="/biography" className="text-light">BROWSE</Link>
                   {` `}
                 </Button>
@@ -81,9 +83,9 @@ const Bookkss = () => {
                 fluid
               />
                <Card.Body>
-                        <Card.Title> <h3>HEALTH</h3></Card.Title>
+                        <Card.Title> <h3 className="font">HEALTH</h3></Card.Title>
                     </Card.Body> 
-                    <Button variant="dark" className="but">
+                    <Button variant="info" className="but">
                   <Link to="/health" className="text-light">BROWSE</Link>
                   {` `}
                 </Button>
@@ -99,17 +101,17 @@ const Bookkss = () => {
                 fluid
               />
                <Card.Body>
-                        <Card.Title> <h3>SELF HELP</h3></Card.Title>
+                        <Card.Title> <h3 className="font">SELF HELP</h3></Card.Title>
                     </Card.Body> 
-                    <button variant="dark" className="but">
+                    <Button variant="info" className="but">
                   <Link to="/selfHelp" className="text-light">BROWSE</Link>
                   {` `}
-                </button>
+                </Button>
             </Card>
           </Col>
 
           <Col md={3}>
-            <Card className="mb-3">
+            <Card className="mb-3 ">
               <Image
                 src={HISTORY}
                 className="card-img-top"
@@ -117,9 +119,9 @@ const Bookkss = () => {
                 fluid
               />
                <Card.Body>
-                        <Card.Title> <h3>HISTORY</h3></Card.Title>
+                        <Card.Title> <h3 className="font">HISTORY</h3></Card.Title>
                     </Card.Body> 
-                    <Button variant="dark" className="but">
+                    <Button variant="info" className="but">
                   <Link to="/history" className="text-light">BROWSE</Link>
                   {` `}
                 </Button>
@@ -127,17 +129,17 @@ const Bookkss = () => {
           </Col>
 
           <Col md={3}>
-            <Card className="mb-3">
+            <Card className="mb-3 ">
               <Image
                 src={RELIGION}
                 className="card-img-top"
                 alt="RELIGION"
                 fluid
               />
-               <Card.Body>
-                        <Card.Title> <h3>RELIGION</h3></Card.Title>
-                    </Card.Body> 
-                    <Button variant="dark"  className="but">
+               <Card.Body  >
+                        <Card.Title> <h3 className="font">RELIGION</h3></Card.Title>
+                    </Card.Body > 
+                    <Button variant="info"  className="but">
                   <Link to="/religion" className="text-light">BROWSE</Link>
                   {` `}
                 </Button>
@@ -145,18 +147,18 @@ const Bookkss = () => {
           </Col>
 
           <Col md={3}>
-            <Card className="mb-3">
+            <Card className="mb-3 " >
               <Image
                 src={COMPUTER}
                 className="card-img-top"
                 alt="COMPUTER SCIENCE"
                 fluid
               />
-               <Card.Body>
-                        <Card.Title> <h3>COMPUTER SCIENCE</h3></Card.Title>
+               <Card.Body  >
+                        <Card.Title> <h3 className="font">COMPUTER SCIENCE</h3></Card.Title>
                     </Card.Body> 
-                    <Button variant="dark" className="but">
-                  <Link to="/compSci" className="text-light">BROWSE</Link>
+                    <Button variant="info" className="but">
+                  <Link to="/compSci" className="text-light text">BROWSE</Link>
                   {` `}
                 </Button>
             </Card>
@@ -164,7 +166,10 @@ const Bookkss = () => {
 
         </Row>
       </div>
+      <br />
+     <br />
     </Container>
+
   )
 }
 export default Bookkss

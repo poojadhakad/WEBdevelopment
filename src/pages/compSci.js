@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import { Button } from "react-bootstrap"
+import { FaDownload, FaEye } from "react-icons/fa"
 import CProg from "../content/bookss/CS/c.jpg"
 import cProg from "../pdf/csPdf/CProg.pdf"
 import aI from "../content/bookss/CS/AI.jpg"
@@ -22,6 +22,9 @@ const ReligionPage = () => {
   return (
     <Layout>
           <Container>
+          <br />
+          <br />
+
       <div className="card-deck">
         <Row>
           <Col md={3}>
@@ -32,75 +35,21 @@ const ReligionPage = () => {
                 alt="C Programming"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={cProg} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={cProg} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
-              </div>
-            </Card>
-          </Col>
-
-          <Col md={3}>
-            <Card className="mb-3">
-              <Image
-                src={aI}
-                className="card-img-top"
-                alt="Bible"
-                fluid
-              />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
-                  <a href={AI} className="text-light">
-                    VIEW BOOK
-                  </a>
-                  {` `}
-                </Button>
-              </div>
-              <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
-                  <a href={AI} className="text-light" download>
-                    DOWNLOAD BOOK
-                  </a>
-                  {` `}
-                </Button>
-              </div>
-            </Card>
-          </Col>
-
-          <Col md={3}>
-            <Card className="mb-3">
-              <Image
-                src={excel}
-                className="card-img-top"
-                alt="Bible"
-                fluid
-              />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
-                  <a href={EXCEL} className="text-light">
-                    VIEW BOOK
-                  </a>
-                  {` `}
-                </Button>
-              </div>
-              <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
-                  <a href={EXCEL} className="text-light" download>
-                    DOWNLOAD BOOK
-                  </a>
-                  {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -113,24 +62,80 @@ const ReligionPage = () => {
                 alt="Bible"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={HCJ} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={HCJ} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
+
+          <Col md={3}>
+            <Card className="mb-3">
+              <Image
+                src={aI}
+                className="card-img-top"
+                alt="Bible"
+                fluid
+              />
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
+                  <a href={AI} className="text-light">
+                    VIEW BOOK <FaEye />
+                  </a>
+                  {` `}
+                </button>
+              </div>
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
+                  <a href={AI} className="text-light" download>
+                    DOWNLOAD BOOK <FaDownload />
+                  </a>
+                  {` `}
+                </button>
+              </div>
+            </Card>
+          </Col>
+
+          <Col md={3}>
+            <Card className="mb-3">
+              <Image
+                src={excel}
+                className="card-img-top"
+                alt="Bible"
+                fluid
+              />
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
+                  <a href={EXCEL} className="text-light">
+                    VIEW BOOK <FaEye />
+                  </a>
+                  {` `}
+                </button>
+              </div>
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
+                  <a href={EXCEL} className="text-light" download>
+                    DOWNLOAD BOOK <FaDownload />
+                  </a>
+                  {` `}
+                </button>
+              </div>
+            </Card>
+          </Col>
+
+         
 
           <Col md={3}>
             <Card className="mb-3">
@@ -140,21 +145,21 @@ const ReligionPage = () => {
                 alt="Bible"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={WD} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={WD} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -167,21 +172,21 @@ const ReligionPage = () => {
                 alt="Bible"
                 fluid
               />
-              <div className="row gap-3 p-3">
-                <Button variant="danger" className="div6">
+              <div className="row gap-1 p-1">
+                <button variant="danger" className="div6">
                   <a href={HTML5} className="text-light">
-                    VIEW BOOK
+                    VIEW BOOK <FaEye />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
               <div className="row gap-1 p-1">
-                <Button variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={HTML5} className="text-light" download>
-                    DOWNLOAD BOOK
+                    DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
-                </Button>
+                </button>
               </div>
             </Card>
           </Col>
@@ -189,6 +194,8 @@ const ReligionPage = () => {
         </Row>
         <p className="text-right"><Link to="/">back to page</Link></p>
       </div>
+      <br />
+          
     </Container>
     </Layout>
   )

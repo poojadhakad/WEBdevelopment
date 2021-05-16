@@ -7,7 +7,6 @@ exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\.cache\\dev-404-page.js")),
   "component---src-pages-about-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\about.js")),
   "component---src-pages-biography-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\biography.js")),
-  "component---src-pages-blog-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\blog.js")),
   "component---src-pages-comp-sci-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\compSci.js")),
   "component---src-pages-contact-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\contact.js")),
   "component---src-pages-fiction-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\fiction.js")),
@@ -16,7 +15,6 @@ exports.components = {
   "component---src-pages-index-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\index.js")),
   "component---src-pages-religion-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\religion.js")),
   "component---src-pages-self-help-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\selfHelp.js")),
-  "component---src-pages-technology-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\technology.js")),
-  "component---src-templates-blog-post-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\templates\\blog-post.js"))
+  "component---src-pages-technology-js": preferDefault(require("C:\\Users\\red10\\Desktop\\project-gatsby-banasthali-main\\src\\pages\\technology.js"))
 }
 
