@@ -39,13 +39,13 @@ const ContactUs = () => (
                   <div className="col-10">
                     <h4 className="text-info">Email Us</h4>
                     <p>
-                      btbtl18114_pooja@banathali.in
+                      btbtl18114_pooja@banasthali.in
                       <br />
-                      btbtl18106_pragya@banathali.in
+                      btbtl18106_pragya@banasthali.in
                       <br />
-                      btbtl18141_tanya@banathali.in
+                      btbtl18141_tanya@banasthali.in
                       <br />
-                      btbtl18104_somya@banathali.in
+                      btbtl18104_somya@banasthali.in
                     </p>
                   </div>
                 </div>
