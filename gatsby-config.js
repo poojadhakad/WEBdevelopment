@@ -1,7 +1,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-plugin-smoothscroll`,
+    // `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
