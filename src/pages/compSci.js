@@ -13,7 +13,7 @@ import EXCEL from "../pdf/csPdf/EXCEL.pdf"
 import wd from "../content/bookss/CS/WD.jpg"
 import WD from "../pdf/csPdf/WD.pdf"
 import html5 from "../content/bookss/CS/html5.jpg"
-import HTML5 from "../pdf/csPdf/HTML5.pdf"
+import HTML5 from "../pdf/csPdf/html.pdf"
 
 import "../styles/book.scss"
 import { Container, Row, Col, Card, Image } from "react-bootstrap"
