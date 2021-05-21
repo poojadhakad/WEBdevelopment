@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { FaArrowLeft, FaDownload, FaEye } from "react-icons/fa"
 import { Link } from "gatsby"
 import OurPast1 from "../content/bookss/history/OurPast1.jpg"
-import ourPast1 from "../pdf/historyPdf/ourPast1.pdf"
+import ourpast1 from "../pdf/historyPdf/ourPast1.pdf"
 import OurPast2 from "../content/bookss/history/OurPast2.jpg"
 import ourPast2 from "../pdf/historyPdf/ourPast2.pdf"
 import sapiens from "../content/bookss/history/sapiens.png"
@@ -31,12 +31,12 @@ const HistoryPage = () => {
               <Image
                 src={OurPast1}
                 className="card-img-top"
-                alt="SHIVPURAN"
+                alt="History"
                 fluid
               />
               <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
-                  <a href={ourPast1} className="text-light">
+                  <a href={ourpast1} className="text-light">
                     VIEW BOOK <FaEye />
                   </a>
                   {` `}
@@ -44,7 +44,7 @@ const HistoryPage = () => {
               </div>
               <div className="row gap-1 p-1">
                 <button variant="danger" className="div6">
-                  <a href={ourPast1} className="text-light" download>
+                  <a href={ourpast1} className="text-light" download>
                     DOWNLOAD BOOK <FaDownload />
                   </a>
                   {` `}
@@ -58,7 +58,7 @@ const HistoryPage = () => {
               <Image
                 src={sapiens}
                 className="card-img-top"
-                alt="Ramayan"
+                alt="History"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -85,7 +85,7 @@ const HistoryPage = () => {
               <Image
                 src={struggle}
                 className="card-img-top"
-                alt="Gita"
+                alt="History"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -113,7 +113,7 @@ const HistoryPage = () => {
               <Image
                 src={gunOfAugust}
                 className="card-img-top"
-                alt="Mahabharat"
+                alt="History"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -141,7 +141,7 @@ const HistoryPage = () => {
               <Image
                 src={discovery}
                 className="card-img-top"
-                alt="Bible"
+                alt="History"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -170,7 +170,7 @@ const HistoryPage = () => {
               <Image
                 src={OurPast2}
                 className="card-img-top"
-                alt="quran"
+                alt="History"
                 fluid
               />
               <div className="row gap-1 p-1">

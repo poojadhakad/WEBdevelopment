@@ -2,9 +2,6 @@ import { Link } from "gatsby"
 import React from "react"
 import {Button} from "react-bootstrap"
 import "../styles/hero.scss"
-// import scrollTo from 'gatsby-plugin-smoothscroll';
-
-
 
 function HeroSection() {
 return(

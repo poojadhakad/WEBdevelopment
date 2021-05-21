@@ -13,12 +13,12 @@ import EXCEL from "../pdf/csPdf/EXCEL.pdf"
 import wd from "../content/bookss/CS/WD.jpg"
 import WD from "../pdf/csPdf/WD.pdf"
 import html5 from "../content/bookss/CS/html5.jpg"
-import HTML5 from "../pdf/csPdf/html5.pdf"
+import HTML5 from "../pdf/csPdf/HTML5.pdf"
 
 import "../styles/book.scss"
 import { Container, Row, Col, Card, Image } from "react-bootstrap"
 
-const ReligionPage = () => {
+const Computer = () => {
   return (
     <Layout>
           <Container>
@@ -32,7 +32,7 @@ const ReligionPage = () => {
               <Image
                 src={CProg}
                 className="card-img-top"
-                alt="C Programming"
+                alt="Computer"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -59,7 +59,7 @@ const ReligionPage = () => {
               <Image
                 src={hcj}
                 className="card-img-top"
-                alt="Bible"
+                alt="Computer"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -86,7 +86,7 @@ const ReligionPage = () => {
               <Image
                 src={aI}
                 className="card-img-top"
-                alt="Bible"
+                alt="Computer"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -113,7 +113,7 @@ const ReligionPage = () => {
               <Image
                 src={excel}
                 className="card-img-top"
-                alt="Bible"
+                alt="Computer"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -142,7 +142,7 @@ const ReligionPage = () => {
               <Image
                 src={wd}
                 className="card-img-top"
-                alt="Bible"
+                alt="Computer"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -169,7 +169,7 @@ const ReligionPage = () => {
               <Image
                 src={html5}
                 className="card-img-top"
-                alt="Bible"
+                alt="Computer"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -201,4 +201,4 @@ const ReligionPage = () => {
   )
 }
 
-export default ReligionPage;
+export default Computer;

@@ -33,7 +33,7 @@ const BiographyPage = () => {
               <Image
                 src={lwtr}
                 className="card-img-top"
-                alt="Mahabharat"
+                alt="Biography"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -61,7 +61,7 @@ const BiographyPage = () => {
               <Image
                 src={mo}
                 className="card-img-top"
-                alt="Bible"
+                alt="Biography"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -90,7 +90,7 @@ const BiographyPage = () => {
               <Image
                 src={sj}
                 className="card-img-top"
-                alt="quran"
+                alt="Biography"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -117,7 +117,7 @@ const BiographyPage = () => {
               <Image
                 src={tdoayg}
                 className="card-img-top"
-                alt="SHIVPURAN"
+                alt="Biography"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -129,12 +129,12 @@ const BiographyPage = () => {
                 </button>
               </div>
               <div className="row gap-1 p-1">
-                <ubtton variant="danger" className="div6">
+                <button variant="danger" className="div6">
                   <a href={TDOAYG} className="text-light" download>
                     DOWNLOAD BOOK <FaDownload/>
                   </a>
                   {` `}
-                </ubtton>
+                </button>
               </div>
             </Card>
           </Col>
@@ -171,7 +171,7 @@ const BiographyPage = () => {
               <Image
                 src={bo}
                 className="card-img-top"
-                alt="Ramayan"
+                alt="Biography"
                 fluid
               />
               <div className="row gap-1 p-1">

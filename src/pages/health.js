@@ -33,7 +33,7 @@ const Health = () => {
               <Image
                 src={etl}
                 className="card-img-top"
-                alt="Ramayan"
+                alt="Health"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -60,7 +60,7 @@ const Health = () => {
               <Image
                 src={fr}
                 className="card-img-top"
-                alt="Mahabharat"
+                alt="Health"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -88,7 +88,7 @@ const Health = () => {
               <Image
                 src={toc}
                 className="card-img-top"
-                alt="SHIVPURAN"
+                alt="Health"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -116,7 +116,7 @@ const Health = () => {
               <Image
                 src={tfhb}
                 className="card-img-top"
-                alt="quran"
+                alt="Health"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -143,7 +143,7 @@ const Health = () => {
               <Image
                 src={wbba}
                 className="card-img-top"
-                alt="Gita"
+                alt="Health"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -168,7 +168,7 @@ const Health = () => {
               <Image
                 src={tcgtf}
                 className="card-img-top"
-                alt="Bible"
+                alt="Health"
                 fluid
               />
               <div className="row gap-1 p-1">

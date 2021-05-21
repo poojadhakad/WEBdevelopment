@@ -31,7 +31,7 @@ const SelpHelp = () => {
               <Image
                 src={aNewEarth}
                 className="card-img-top"
-                alt="Ramayan"
+                alt="SelpHelp"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -58,7 +58,7 @@ const SelpHelp = () => {
               <Image
                 src={monk}
                 className="card-img-top"
-                alt="Mahabharat"
+                alt="SelpHelp"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -86,7 +86,7 @@ const SelpHelp = () => {
               <Image
                 src={positiveThinking}
                 className="card-img-top"
-                alt="Bible"
+                alt="SelpHelp"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -115,7 +115,7 @@ const SelpHelp = () => {
               <Image
                 src={powerOfNow}
                 className="card-img-top"
-                alt="quran"
+                alt="SelpHelp"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -142,7 +142,7 @@ const SelpHelp = () => {
               <Image
                 src={rulesForLife}
                 className="card-img-top"
-                alt="SHIVPURAN"
+                alt="SelpHelp"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -169,7 +169,7 @@ const SelpHelp = () => {
               <Image
                 src={ikigai}
                 className="card-img-top"
-                alt="Gita"
+                alt="SelpHelp"
                 fluid
               />
               <div className="row gap-1 p-1">

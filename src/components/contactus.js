@@ -52,25 +52,6 @@ const ContactUs = () => (
               </div>
             </div>
 
-             {/* <div className="col-lg-12 mb-4">
-              <div className="card p-2 text-center shadow">
-                <div className="row">
-                  <div className="col-2 p-4">
-                    <h1 className="text-danger ">
-                      <FaPhone />
-                    </h1>
-                  </div>
-                   <div className="col-10">
-                    <h4 className="text-danger">Call Us</h4>
-                    <p>
-                      +1 5589 55488 55
-                      <br />
-                      +1 6678 254445 41
-                    </p>
-                  </div> 
-                </div>
-              </div>
-            </div> */}
           </div>
         </div> 
 

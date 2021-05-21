@@ -35,7 +35,7 @@ const Fiction = () => {
               <Image
                 src={ge}
                 className="card-img-top"
-                alt="Ramayan"
+                alt="Fiction"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -62,7 +62,7 @@ const Fiction = () => {
               <Image
                 src={mby}
                 className="card-img-top"
-                alt="Mahabharat"
+                alt="Fiction"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -90,7 +90,7 @@ const Fiction = () => {
               <Image
                 src={tfios}
                 className="card-img-top"
-                alt="Bible"
+                alt="Fiction"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -119,7 +119,7 @@ const Fiction = () => {
               <Image
                 src={tgg}
                 className="card-img-top"
-                alt="quran"
+                alt="Fiction"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -146,7 +146,7 @@ const Fiction = () => {
               <Image
                 src={tkr}
                 className="card-img-top"
-                alt="SHIVPURAN"
+                alt="Fiction"
                 fluid
               />
               <div className="row gap-1 p-1">
@@ -173,7 +173,7 @@ const Fiction = () => {
               <Image
                 src={wh}
                 className="card-img-top"
-                alt="Gita"
+                alt="Fiction"
                 fluid
               />
               <div className="row gap-1 p-1">
